@@ -5,7 +5,7 @@ export function RegisterForm() {
 
     const [username, setUsername] = useState<string>("");
 
-    const get_data = (e) => {
+    const get_data = (e:React.ChangeEvent<HTMLInputElement>) => {
 
         let champ_value=e.target.value;
         console.log(typeof(e))
