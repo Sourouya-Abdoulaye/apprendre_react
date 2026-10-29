@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client'
 import App from './App'
 import { Enfant,Parent } from './ParentEnfant'
 import { RegisterForm } from './ControlleInput'
+import { TeamForm } from './Forms'
+
+
 
 
 
@@ -11,7 +14,8 @@ createRoot(document.getElementById('root')!).render(
   <StrictMode>
    {/* <App/> */}
    {/* <Parent/> */}
+   {/* <RegisterForm/> */}
 
-   <RegisterForm/>
+  <TeamForm/>
   </StrictMode>,
 )
